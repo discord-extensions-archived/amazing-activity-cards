@@ -1,0 +1,26 @@
+#app-mount {
+    .headerPlaying-j0WQBV .activityUserPopout-2yItg2,
+    .topSectionPlaying-1J5E4n .headerFill-adLl4x .activityProfile-2bJRaP,
+    .topSectionPlaying-1J5E4n div[class] {
+        --activity-background: var(--default-bg); 
+        --activity-drop-shadow: var(--default-bg-backdrop);
+    }
+
+    .headerXbox-3G-4PF .activityUserPopout-2yItg2,
+    .topSectionXbox-3fWLjS .headerFill-adLl4x .activityProfile-2bJRaP {
+        --activity-background: var(--xbox-bg); 
+        --activity-drop-shadow: var(--xbox-bg-backdrop);
+    }
+
+    .headerSpotify-zpWxgT .activityUserPopout-2yItg2,
+    .topSectionSpotify-1lI0-P .headerFill-adLl4x .activityProfile-2bJRaP {
+        --activity-background: var(--spotify-bg); 
+        --activity-drop-shadow: var(--spotify-bg-backdrop);
+    }
+
+    .headerStreaming-2FjmGz .activityUserPopout-2yItg2,
+    .topSectionStreaming-1Tpf5X .headerFill-adLl4x .activityProfile-2bJRaP {
+        --activity-background: var(--streaming-bg); 
+        --activity-drop-shadow: var(--streaming-bg-backdrop);
+    }
+}

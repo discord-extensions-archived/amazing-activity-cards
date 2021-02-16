@@ -1,0 +1,25 @@
+#app-mount {
+    // Activity Cards
+    .activityUserPopout-2yItg2,
+    .activityProfile-2bJRaP {
+        background: var(--activity-background); 
+        box-shadow: var(--activity-box-shadow) var(--activity-drop-shadow);
+        border-radius: var(--activity-border-radius); 
+        padding: 10px;
+        margin: 0 9px 10px 6px; 
+    }
+
+    // Popout
+    .userPopout-3XzG_A .header-2BwW8b {
+        background: var(--activity-modal-color);
+    }
+
+    // Full
+    .inner-1ilYF7 .flex-1xMQg5.root-SR8cQa > div:first-child {
+        background: var(--activity-modal-color);
+
+        .headerFill-adLl4x {
+            background: transparent;
+        }
+    }
+}
