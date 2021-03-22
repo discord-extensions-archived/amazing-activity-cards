@@ -2,7 +2,7 @@
     "name": "Amazing Activity Cards",
     "description": "Makes Discord's normal activity cards look a bit nicer. Inspired off of NYRI4's Comfy Theme.",
     "version": "1.0.0",
-    "author": "LuckFire#48000",
+    "author": "LuckFire#4800",
     "theme": "index.scss",
     "consent": "true",
     "license": "MIT"
