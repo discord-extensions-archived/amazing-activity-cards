@@ -83,4 +83,17 @@
     .nameTag-m8r81H:not(.nameTag-2IFDfL) { 
         color: var(--header-secondary); 
     }
+    
+    // Role Color Everywhere
+    .rolecolor-colored-userpopout {
+        color: var(--color) !important;
+
+        .headerTagUsernameNoNickname-2_H881 {
+            color: inherit;
+        }
+
+        span:not([class]) {
+            opacity: 0.6;
+        }
+    }
 }
