@@ -1,0 +1,116 @@
+#app-mount {
+    .root-SR8cQa {
+        // Profile Badges
+        $profileBadges: (
+            // Hypesquad
+            BadgeHypesquad-12E2P6 : '/assets/6c73f47daf179ffade99f501bfc5101b.svg',
+            BadgeHypeSquadOnlineHouse1-3rBtjf : '/assets/64ae1208b6aefc0a0c3681e6be36f0ff.svg',
+            BadgeHypeSquadOnlineHouse1Winner-3wCl80 : '/assets/26a2dc8c9d70955a988cb377eec84c22.svg',
+            BadgeHypeSquadOnlineHouse2-2oU04B : '/assets/48cf0556d93901c8cb16317be2436523.svg',
+            BadgeHypeSquadOnlineHouse2Winner-AS5bXe : '/assets/88d4f11bee9ea34fee59973b33353da0.svg',
+            BadgeHypeSquadOnlineHouse3-1DoJkv : '/assets/9fdc63ef8a3cc1617c7586286c34e4f1.svg',
+            BadgeHypeSquadOnlineHouse3Winner-2CwwQi : '/assets/3245b2cd85b787b195ea8f6e10ef5790.svg',
+    
+            // Bug Hunter
+            BadgeBugHunterLevel1-dbEzVz : '/assets/f61b8981e92feead854f52e5a1ba14f0.svg',
+            BadgeBugHunterLevel2-3TUciC : '/assets/9286332d6e947c91fa91569efce431b0.svg',
+    
+            // Premium / Guild Subscriber
+            BadgeEarlySupporter-2ng_jL : '/assets/23e59d799436a73c024819f84ea0b627.svg',
+            BadgePremium-1KDZYC : '/assets/386884eecd36164487505ddfbac35a9d.svg',
+            GuildSubscriberlvl1-3oI9tx : '/assets/fbb6f1e160280f0e9aeb5d7c452eefe1.svg',
+            GuildSubscriberlvl2-r6nJHT : '/assets/b4b741bef6c3de9b29e2e0653e294620.svg',
+            GuildSubscriberlvl3-38s3Dj : '/assets/93f5a393e22796a850931483166d7cb9.svg',
+            GuildSubscriberlvl4-2NXrsI : '/assets/4c380650960c2b1e1584115d5e9ad63b.svg',
+            GuildSubscriberlvl5-3XIa2K : '/assets/438dd7ecbffcf21b6cbf2773ade51a04.svg',
+            GuildSubscriberlvl6-3e3sxW : '/assets/7a5f78de816fcecbbd1d5d6e635cc7dd.svg',
+            GuildSubscriberlvl7-1dVhQT : '/assets/5a24b20b84fb3eafc138916729386e76.svg',
+            GuildSubscriberlvl8-1kXdFr : '/assets/f31d590e1f3629cd0b614330f4a8ee2a.svg',
+            GuildSubscriberlvl9-1d6zav : '/assets/9ba64f1fa91ccde0eba506c1c33f3d1a.svg',
+            
+            // Other
+            BadgeStaff-3BXdTO : '/assets/4358ad1fb423b346324516453750f569.svg',
+            BadgePartner-j6Lwhr : '/assets/4358ad1fb423b346324516453750f569.svg',
+            BadgeVerifiedDeveloper-195KfD : '/assets/45cd06af582dcd3c6b79370b4e3630de.svg'
+        );
+        @each $type, $asset in $profileBadges {
+            .profile#{$type} {
+                background-image: url($asset);
+            }
+        }
+        .powercord-badge svg path {
+            fill: var(--blurple);
+        }
+
+        // Buttons
+        .actionButton-3W1xZa {
+            background-color: var(--action-default);
+            color: #fff;
+
+            &:hover {
+                background-color: var(--action-default-hover);
+            }
+        }
+        .buttonInvertedPurple-WtBglX {
+            background-color: var(--action-streaming);
+            color: #fff;
+
+            &:hover {
+                background-color: var(--action-streaming-hover);
+            }
+        }
+
+        // Text
+        .activity-1ythUs {
+            .activityHeader-1PExlk, 
+            .customStatusText-39gdCI { 
+                color: var(--header-secondary); 
+            }
+        }
+    }
+
+    .userPopout-3XzG_A {
+        // role color everywhere fix
+        .rolecolor-colored-userpopout {
+            color: var(--color) !important;
+
+            .username-2b1r56 {
+                color: inherit;
+            }
+
+            span:not([class]) {
+                opacity: 0.6;
+            }
+        }
+        .customStatusText-3YJeRZ { 
+            color: var(--header-secondary); 
+        }
+        .headerTag-2pZJzA span:not([class]) { 
+            color: var(--header-secondary); 
+        }
+    }
+
+    // Statuses
+    .root-SR8cQa,
+    .userPopout-3XzG_A {
+        $statuses: (
+            online : var(--status-online),
+            online-mobile : var(--status-online),
+            idle : var(--status-idle),
+            dnd : var(--status-dnd),
+            streaming : var(--status-streaming)
+        );
+        @each $type, $color in $statuses {
+            .wrapper-3t9DeA svg [mask="url(#svg-mask-status-#{$type})"] {
+                fill: $color !important;
+                stroke: $color;
+            }
+        }
+
+        // Bot Tags
+        .botTagInvert-18-95s {
+            background-color: var(--blurple);
+            color: #fff;
+        }
+    }
+}

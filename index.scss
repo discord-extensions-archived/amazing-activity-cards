@@ -1,1 +1,32 @@
+:root {
+    --blurple: #7289DA;
+
+    /* Default Cards */
+    --activity-modal-color: var(--background-tertiary);
+    --activity-border-radius: 3px;
+    --activity-box-shadow: 2px 2px 2px;
+
+    /* Cards Coloring */
+    --default-bg: var(--blurple);
+    --default-bg-backdrop: #5a6caf;
+    --xbox-bg: #107C10;
+    --xbox-bg-backdrop: #0a530a;
+    --spotify-bg: #1DB954;
+    --spotify-bg-backdrop: #218F4F;
+    --streaming-bg: #593695;
+    --streaming-bg-backdrop: #3e2668;
+    
+    /* Statuses */
+    --status-online: #43B480;
+    --status-idle: #F8A51A;
+    --status-dnd: #F04747;
+    --status-streaming: #593695;
+
+    /* Buttons */
+    --action-default: #43B581;
+    --action-default-hover: #3CA374;
+    --action-streaming: #593695;
+    --action-streaming-hover: #492D7A;
+}
+
 @import "./src/base"

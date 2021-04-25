@@ -1,0 +1,169 @@
+#app-mount .activityUserPopout-2yItg2,
+#app-mount .activityProfile-2bJRaP {
+    background: var(--activity-background);
+    box-shadow: var(--activity-box-shadow) var(--activity-drop-shadow);
+    border-radius: var(--activity-border-radius);
+    padding: 10px;
+    margin: 0 9px 10px 6px;
+}
+#app-mount .userPopout-3XzG_A .header-2BwW8b,
+#app-mount .root-SR8cQa > div:first-child,
+#app-mount .root-SR8cQa .headerFill-adLl4x {
+    background: var(--activity-modal-color);
+}
+#app-mount .headerPlaying-j0WQBV .activityUserPopout-2yItg2,
+#app-mount .topSectionPlaying-1J5E4n .activityProfile-2bJRaP {
+    --activity-background: var(--default-bg);
+    --activity-drop-shadow: var(--default-bg-backdrop);
+}
+#app-mount .headerXbox-3G-4PF .activityUserPopout-2yItg2,
+#app-mount .topSectionXbox-3fWLjS .activityProfile-2bJRaP {
+    --activity-background: var(--xbox-bg);
+    --activity-drop-shadow: var(--xbox-bg-backdrop);
+}
+#app-mount .headerSpotify-zpWxgT .activityUserPopout-2yItg2,
+#app-mount .topSectionSpotify-1lI0-P .activityProfile-2bJRaP {
+    --activity-background: var(--spotify-bg);
+    --activity-drop-shadow: var(--spotify-bg-backdrop);
+}
+#app-mount .headerStreaming-2FjmGz .activityUserPopout-2yItg2,
+#app-mount .topSectionStreaming-1Tpf5X .activityProfile-2bJRaP {
+    --activity-background: var(--streaming-bg);
+    --activity-drop-shadow: var(--streaming-bg-backdrop);
+}
+
+#app-mount .root-SR8cQa .profileBadgeHypesquad-12E2P6 {
+    background-image: url("/assets/6c73f47daf179ffade99f501bfc5101b.svg");
+}
+#app-mount .root-SR8cQa .profileBadgeHypeSquadOnlineHouse1-3rBtjf {
+    background-image: url("/assets/64ae1208b6aefc0a0c3681e6be36f0ff.svg");
+}
+#app-mount .root-SR8cQa .profileBadgeHypeSquadOnlineHouse1Winner-3wCl80 {
+    background-image: url("/assets/26a2dc8c9d70955a988cb377eec84c22.svg");
+}
+#app-mount .root-SR8cQa .profileBadgeHypeSquadOnlineHouse2-2oU04B {
+    background-image: url("/assets/48cf0556d93901c8cb16317be2436523.svg");
+}
+#app-mount .root-SR8cQa .profileBadgeHypeSquadOnlineHouse2Winner-AS5bXe {
+    background-image: url("/assets/88d4f11bee9ea34fee59973b33353da0.svg");
+}
+#app-mount .root-SR8cQa .profileBadgeHypeSquadOnlineHouse3-1DoJkv {
+    background-image: url("/assets/9fdc63ef8a3cc1617c7586286c34e4f1.svg");
+}
+#app-mount .root-SR8cQa .profileBadgeHypeSquadOnlineHouse3Winner-2CwwQi {
+    background-image: url("/assets/3245b2cd85b787b195ea8f6e10ef5790.svg");
+}
+#app-mount .root-SR8cQa .profileBadgeBugHunterLevel1-dbEzVz {
+    background-image: url("/assets/f61b8981e92feead854f52e5a1ba14f0.svg");
+}
+#app-mount .root-SR8cQa .profileBadgeBugHunterLevel2-3TUciC {
+    background-image: url("/assets/9286332d6e947c91fa91569efce431b0.svg");
+}
+#app-mount .root-SR8cQa .profileBadgeEarlySupporter-2ng_jL {
+    background-image: url("/assets/23e59d799436a73c024819f84ea0b627.svg");
+}
+#app-mount .root-SR8cQa .profileBadgePremium-1KDZYC {
+    background-image: url("/assets/386884eecd36164487505ddfbac35a9d.svg");
+}
+#app-mount .root-SR8cQa .profileGuildSubscriberlvl1-3oI9tx {
+    background-image: url("/assets/fbb6f1e160280f0e9aeb5d7c452eefe1.svg");
+}
+#app-mount .root-SR8cQa .profileGuildSubscriberlvl2-r6nJHT {
+    background-image: url("/assets/b4b741bef6c3de9b29e2e0653e294620.svg");
+}
+#app-mount .root-SR8cQa .profileGuildSubscriberlvl3-38s3Dj {
+    background-image: url("/assets/93f5a393e22796a850931483166d7cb9.svg");
+}
+#app-mount .root-SR8cQa .profileGuildSubscriberlvl4-2NXrsI {
+    background-image: url("/assets/4c380650960c2b1e1584115d5e9ad63b.svg");
+}
+#app-mount .root-SR8cQa .profileGuildSubscriberlvl5-3XIa2K {
+    background-image: url("/assets/438dd7ecbffcf21b6cbf2773ade51a04.svg");
+}
+#app-mount .root-SR8cQa .profileGuildSubscriberlvl6-3e3sxW {
+    background-image: url("/assets/7a5f78de816fcecbbd1d5d6e635cc7dd.svg");
+}
+#app-mount .root-SR8cQa .profileGuildSubscriberlvl7-1dVhQT {
+    background-image: url("/assets/5a24b20b84fb3eafc138916729386e76.svg");
+}
+#app-mount .root-SR8cQa .profileGuildSubscriberlvl8-1kXdFr {
+    background-image: url("/assets/f31d590e1f3629cd0b614330f4a8ee2a.svg");
+}
+#app-mount .root-SR8cQa .profileGuildSubscriberlvl9-1d6zav {
+    background-image: url("/assets/9ba64f1fa91ccde0eba506c1c33f3d1a.svg");
+}
+#app-mount .root-SR8cQa .profileBadgeStaff-3BXdTO {
+    background-image: url("/assets/4358ad1fb423b346324516453750f569.svg");
+}
+#app-mount .root-SR8cQa .profileBadgePartner-j6Lwhr {
+    background-image: url("/assets/4358ad1fb423b346324516453750f569.svg");
+}
+#app-mount .root-SR8cQa .profileBadgeVerifiedDeveloper-195KfD {
+    background-image: url("/assets/45cd06af582dcd3c6b79370b4e3630de.svg");
+}
+#app-mount .root-SR8cQa .powercord-badge svg path {
+    fill: var(--blurple);
+}
+#app-mount .root-SR8cQa .actionButton-3W1xZa {
+    background-color: var(--action-default);
+    color: #fff;
+}
+#app-mount .root-SR8cQa .actionButton-3W1xZa:hover {
+    background-color: var(--action-default-hover);
+}
+#app-mount .root-SR8cQa .buttonInvertedPurple-WtBglX {
+    background-color: var(--action-streaming);
+    color: #fff;
+}
+#app-mount .root-SR8cQa .buttonInvertedPurple-WtBglX:hover {
+    background-color: var(--action-streaming-hover);
+}
+#app-mount .root-SR8cQa .activity-1ythUs .activityHeader-1PExlk,
+#app-mount .root-SR8cQa .activity-1ythUs .customStatusText-39gdCI {
+    color: var(--header-secondary);
+}
+#app-mount .userPopout-3XzG_A .rolecolor-colored-userpopout {
+    color: var(--color) !important;
+}
+#app-mount .userPopout-3XzG_A .rolecolor-colored-userpopout .username-2b1r56 {
+    color: inherit;
+}
+#app-mount .userPopout-3XzG_A .rolecolor-colored-userpopout span:not([class]) {
+    opacity: 0.6;
+}
+#app-mount .userPopout-3XzG_A .customStatusText-3YJeRZ {
+    color: var(--header-secondary);
+}
+#app-mount .userPopout-3XzG_A .headerTag-2pZJzA span:not([class]) {
+    color: var(--header-secondary);
+}
+#app-mount .root-SR8cQa .wrapper-3t9DeA svg [mask="url(#svg-mask-status-online)"],
+#app-mount .userPopout-3XzG_A .wrapper-3t9DeA svg [mask="url(#svg-mask-status-online)"] {
+    fill: var(--status-online) !important;
+    stroke: var(--status-online);
+}
+#app-mount .root-SR8cQa .wrapper-3t9DeA svg [mask="url(#svg-mask-status-online-mobile)"],
+#app-mount .userPopout-3XzG_A .wrapper-3t9DeA svg [mask="url(#svg-mask-status-online-mobile)"] {
+    fill: var(--status-online) !important;
+    stroke: var(--status-online);
+}
+#app-mount .root-SR8cQa .wrapper-3t9DeA svg [mask="url(#svg-mask-status-idle)"],
+#app-mount .userPopout-3XzG_A .wrapper-3t9DeA svg [mask="url(#svg-mask-status-idle)"] {
+    fill: var(--status-idle) !important;
+    stroke: var(--status-idle);
+}
+#app-mount .root-SR8cQa .wrapper-3t9DeA svg [mask="url(#svg-mask-status-dnd)"],
+#app-mount .userPopout-3XzG_A .wrapper-3t9DeA svg [mask="url(#svg-mask-status-dnd)"] {
+    fill: var(--status-dnd) !important;
+    stroke: var(--status-dnd);
+}
+#app-mount .root-SR8cQa .wrapper-3t9DeA svg [mask="url(#svg-mask-status-streaming)"],
+#app-mount .userPopout-3XzG_A .wrapper-3t9DeA svg [mask="url(#svg-mask-status-streaming)"] {
+    fill: var(--status-streaming) !important;
+    stroke: var(--status-streaming);
+}
+#app-mount .root-SR8cQa .botTagInvert-18-95s,
+#app-mount .userPopout-3XzG_A .botTagInvert-18-95s {
+    background-color: var(--blurple);
+    color: #fff;
+}

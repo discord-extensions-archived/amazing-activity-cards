@@ -9,17 +9,35 @@
         margin: 0 9px 10px 6px; 
     }
 
-    // Popout
-    .userPopout-3XzG_A .header-2BwW8b {
+    // Popouts & Modals
+    .userPopout-3XzG_A .header-2BwW8b,
+    .root-SR8cQa > div:first-child,
+    .root-SR8cQa .headerFill-adLl4x {
         background: var(--activity-modal-color);
     }
 
-    // Full
-    .inner-1ilYF7 .flex-1xMQg5.root-SR8cQa > div:first-child {
-        background: var(--activity-modal-color);
+    // Header Coloring 
+    .headerPlaying-j0WQBV .activityUserPopout-2yItg2,
+    .topSectionPlaying-1J5E4n .activityProfile-2bJRaP {
+        --activity-background: var(--default-bg); 
+        --activity-drop-shadow: var(--default-bg-backdrop);
+    }
 
-        .headerFill-adLl4x {
-            background: transparent;
-        }
+    .headerXbox-3G-4PF .activityUserPopout-2yItg2,
+    .topSectionXbox-3fWLjS .activityProfile-2bJRaP {
+        --activity-background: var(--xbox-bg); 
+        --activity-drop-shadow: var(--xbox-bg-backdrop);
+    }
+
+    .headerSpotify-zpWxgT .activityUserPopout-2yItg2,
+    .topSectionSpotify-1lI0-P .activityProfile-2bJRaP {
+        --activity-background: var(--spotify-bg); 
+        --activity-drop-shadow: var(--spotify-bg-backdrop);
+    }
+
+    .headerStreaming-2FjmGz .activityUserPopout-2yItg2,
+    .topSectionStreaming-1Tpf5X .activityProfile-2bJRaP {
+        --activity-background: var(--streaming-bg); 
+        --activity-drop-shadow: var(--streaming-bg-backdrop);
     }
 }
