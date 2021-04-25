@@ -1,3 +1,6 @@
+# v1.1.1
+Fixed for Radial Status, this closes [issue #3](https://github.com/Discord-Theme-Addons/amazing-activity-cards/issues/3).
+
 # v1.1.0
 Some adjustments and fixes:
 - Role Colors Everywhere should now work properly on the user popout. This resolves [pull #1](https://github.com/Discord-Theme-Addons/amazing-activity-cards/pull/1).

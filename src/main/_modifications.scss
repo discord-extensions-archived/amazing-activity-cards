@@ -102,8 +102,7 @@
         );
         @each $type, $color in $statuses {
             .wrapper-3t9DeA svg [mask="url(#svg-mask-status-#{$type})"] {
-                fill: $color !important;
-                stroke: $color;
+                fill: $color;
             }
         }
 

@@ -123,7 +123,7 @@
     color: var(--header-secondary);
 }
 #app-mount .userPopout-3XzG_A .rolecolor-colored-userpopout {
-    color: var(--color) !important;
+    color: var(--color);
 }
 #app-mount .userPopout-3XzG_A .rolecolor-colored-userpopout .username-2b1r56 {
     color: inherit;
@@ -139,28 +139,23 @@
 }
 #app-mount .root-SR8cQa .wrapper-3t9DeA svg [mask="url(#svg-mask-status-online)"],
 #app-mount .userPopout-3XzG_A .wrapper-3t9DeA svg [mask="url(#svg-mask-status-online)"] {
-    fill: var(--status-online) !important;
-    stroke: var(--status-online);
+    fill: var(--status-online);
 }
 #app-mount .root-SR8cQa .wrapper-3t9DeA svg [mask="url(#svg-mask-status-online-mobile)"],
 #app-mount .userPopout-3XzG_A .wrapper-3t9DeA svg [mask="url(#svg-mask-status-online-mobile)"] {
-    fill: var(--status-online) !important;
-    stroke: var(--status-online);
+    fill: var(--status-online);
 }
 #app-mount .root-SR8cQa .wrapper-3t9DeA svg [mask="url(#svg-mask-status-idle)"],
 #app-mount .userPopout-3XzG_A .wrapper-3t9DeA svg [mask="url(#svg-mask-status-idle)"] {
-    fill: var(--status-idle) !important;
-    stroke: var(--status-idle);
+    fill: var(--status-idle);
 }
 #app-mount .root-SR8cQa .wrapper-3t9DeA svg [mask="url(#svg-mask-status-dnd)"],
 #app-mount .userPopout-3XzG_A .wrapper-3t9DeA svg [mask="url(#svg-mask-status-dnd)"] {
-    fill: var(--status-dnd) !important;
-    stroke: var(--status-dnd);
+    fill: var(--status-dnd);
 }
 #app-mount .root-SR8cQa .wrapper-3t9DeA svg [mask="url(#svg-mask-status-streaming)"],
 #app-mount .userPopout-3XzG_A .wrapper-3t9DeA svg [mask="url(#svg-mask-status-streaming)"] {
-    fill: var(--status-streaming) !important;
-    stroke: var(--status-streaming);
+    fill: var(--status-streaming);
 }
 #app-mount .root-SR8cQa .botTagInvert-18-95s,
 #app-mount .userPopout-3XzG_A .botTagInvert-18-95s {
