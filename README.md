@@ -1,3 +1,9 @@
+# NO LONGER MAINTAINED
+Due to a recent Discord update on user popouts (yes, i know i'm late), and the fact that I'm too burned out to really do anything with this, this thing go boof.
+
+I suggest using https://github.com/mr-miner1/cooler-activity-status instead since it actually works and probably gets updates. goodbye.
+
+
 ![Banner](./assets/banner.png)
 
 # Amazing Activity Cards
